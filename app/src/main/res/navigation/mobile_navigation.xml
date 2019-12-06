@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.a442projects_the_big_brain_bros.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.a442projects_the_big_brain_bros.ui.gallery.FavoritesFragment"
+        android:label="@string/Favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.a442projects_the_big_brain_bros.ui.slideshow.HistoryFragment"
+        android:label="@string/Historyt"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.a442projects_the_big_brain_bros.ui.tools.ToolsFragment"
+        android:label="@string/Search"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.a442projects_the_big_brain_bros.ui.share.ShareFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.a442projects_the_big_brain_bros.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/activity_login" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.a442projects_the_big_brain_bros.ui.send.LoginFragment"
+        android:label="@string/login"
+        tools:layout="@layout/activity_login" />
+
+    <fragment
+        android:id="@+id/nav_signup"
+        android:name="com.example.a442projects_the_big_brain_bros.ui.send.RegisterFragment"
+        android:label="@string/sign_up"
+        tools:layout="@layout/activity_register" />
+
+
+</navigation>
